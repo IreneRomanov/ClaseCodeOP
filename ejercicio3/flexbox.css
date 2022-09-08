@@ -1,0 +1,47 @@
+*{
+    min-width: 1000px;
+}
+
+#global{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: baseline;
+   
+}
+
+#uno{
+    background-color: red;
+    width: 150px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+#dos{
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    flex-grow: 3;
+    border: 2px solid black;
+}
+#tres{
+    background-color: green;
+    width: 150px;
+    height: 200px;
+    flex-shrink: 12;
+    border: 2px solid black;
+}
+#cuatro{
+    background-color: blue;
+    width: 280px;
+    height: 200px;
+    align-self: center;
+    border: 2px solid black;
+}
+#cinco{
+    background-color: orange;
+    width: 150px;
+    height: 360px;
+
+    border: 2px solid black;
+}
